@@ -14,6 +14,7 @@ list_of_squares = []
 squares_test = []
 
 screen = pygame.display.set_mode((screen_width, screen_height))
+screen.fill(black)
 pygame.display.set_caption('Ex 08')
 
 class Circle:
